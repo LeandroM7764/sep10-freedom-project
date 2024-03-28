@@ -7,6 +7,4 @@ My focus area for this project is Space Exploration.
 
 Throughout the process of developing this website, I utilized HTML, CSS, Bootstrap and Github. Additionally, I delved into independent research on Space Exploration to ensure that the content on my site is informative and engaging.
 
-[Previous](entry03.md) | [Next](entry05.md)
 
-[Home](../README.md)
