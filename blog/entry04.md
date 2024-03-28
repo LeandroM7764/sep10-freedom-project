@@ -28,7 +28,7 @@ Throughout the process of developing this website, I utilized HTML, CSS, Bootstr
 
 * Launching rockets into space has the potential to contribute to air pollution and generate space debris that poses risks to both our planet and outer space environments.
 
-* 
+* The benefits derived from space exploration may not be equitably shared among all nations, potentially widening the wealth gap between more ecomically developed countries and those less economically developed.
 
 ## Blog
 Below you will find my blog about how I made my project.
