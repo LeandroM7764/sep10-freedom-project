@@ -24,8 +24,11 @@ Throughout the process of developing this website, I utilized HTML, CSS, Bootstr
 
 ##### CONS
 
-*
+* Significant resources are used for space exploration, funds that could potentially address pressing issues on Earth such as food security, healthcare and environmental conservation.
 
+* Launching rockets into space has the potential to contribute to air pollution and generate space debris that poses risks to both our planet and outer space environments.
+
+* 
 
 ## Blog
 Below you will find my blog about how I made my project.
