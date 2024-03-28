@@ -15,8 +15,15 @@ Throughout the process of developing this website, I utilized HTML, CSS, Bootstr
 
 ## Implications
 ##### PROS
-*
+
+* Inspires individuals to explore the wonders of outer space, igniting a sense of enthusiasm for cosmic journeys.
+
+* With the growing fascination in space exploration, there is potential for the creation of revolutionary technologies beneficial for both celestial and terrestrial purposes.
+
+* Promotes international cooperation on space initiatives, fostering improved global relations among nations.
+
 ##### CONS
+
 *
 
 
