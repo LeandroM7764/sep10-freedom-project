@@ -21,7 +21,8 @@ This snippet of code sets up a container with three columns of the same size. To
 
 This causes an item to span across the initial two columns. I gained valuable insights into grid features from the website: https://css-tricks.com/snippets/css/complete-guide-grid/
 
-I also explored the process of arranging sections within a grid using "grid-template-areas", which simplifies layout management:
+I also explored the process of arranging sections within a grid using "grid-template-areas", which simplifies layout managment:
+
 --------------------
 .grid-layout {
   display: grid;
