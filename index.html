@@ -1,37 +1,160 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Exploration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            margin-top: 60px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 3em; /* Adjust this value for a larger or smaller title */
+        }
+        .section {
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .subsection {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 20px;
+        }
+        .text {
+            flex: 2;
+            margin-right: 20px;
+        }
+        .image {
+            flex: 1;
+        }
+        .image img {
+            width: 100%;
+        }
+        h2, h3 {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#current-technology">Current Technology</a></li>
+            <li><a href="#future-technology">Future Technology</a></li>
+        </ul>
+    </nav>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <style>
-            /* CSS */
+    <div class="container">
+        <h1>Space Exploration</h1>
 
-        </style>
+        <div class="section" id="introduction">
+            <h2>Introduction</h2>
+            <div class="subsection">
+                <div class="text">
+                    <p>Space exploration is the exploration of space through space technology like spaceships or rovers. Its purpose is for us to understand more about space. It could solve a lot of issues we currently face today. From 1957, we have advanced a lot in space exploration.</p>
+                    <p>Throughout history, humans have always been fascinated by the stars and what lies beyond our planet. The dawn of space exploration began with the launch of Sputnik by the Soviet Union in 1957, marking the beginning of humanity's journey into the cosmos. Since then, we have landed on the moon, sent rovers to Mars, and are now exploring the outer reaches of our solar system with advanced probes.</p>
+                    <p>Space exploration not only fuels our curiosity but also drives technological innovation. Many technologies we use in our daily lives, such as GPS, satellite communications, and even some medical advancements, have their origins in space research. The knowledge gained from exploring space helps us understand the universe better and can potentially provide solutions to challenges such as climate change, resource scarcity, and even finding new habitats for humanity.</p>
+                </div>
+                <div class="image">
+                    <img src="https://res.cloudinary.com/momentum-media-group-pty-ltd/image/upload/v1686795211/Space%20Connect/space-exploration-sc_fm1ysf.jpg" alt="Space Exploration">
+                </div>
+            </div>
+        </div>
 
-        <title>Space Exploration</title>
-    </head>
-    <body>
-        <!-- HTML -->
-<h1>Space Exploration</h1>
+        <div class="section" id="current-technology">
+            <h2>Current Technology</h2>
+            <h3>Summary</h3>
+            <div class="subsection">
+                <div class="text">
+                    <ul>
+                        <li>Thrust Force - Related to how powerful the engine of the spacecraft is.</li>
+                        <li>Information Transmission - How information travels from space to earth/in space.</li>
+                        <li>Maneuverability Control - How rockets and rovers move in space.</li>
+                        <li>Life Support Systems - How space shuttles will be able to support human life for an extended period of time.</li>
+                        <li>Trajectory Design - Specific angles that allow rockets to travel in different directions around Earth.</li>
+                        <li>Sample Gathering Technology - Methods and tools that would be used to collect samples from space.</li>
+                        <li>Space Habitats - Habitats that would be designed for people to be able to live in space.</li>
+                        <li>Navigation - The determination of where the spacecraft would go.</li>
+                        <li>Sustainability Tests - Tests on different planets to see if it can support human life.</li>
+                        <li>Satellite Imaging - Capturing images in space, ex: planets and stars.</li>
+                        <li>Efficient Spacesuits - Space suits that allow people to survive in space when they exit a shuttle.</li>
+                    </ul>
+                </div>
+                <div class="image">
+                    <img src="https://mars.nasa.gov/system/content_pages/main_images/365_MER-1280.jpg" alt="Current Space Technology">
+                </div>
+            </div>
+        </div>
 
-<h2>Current Technology</h2>
-
-<h3>Summary</h3>
-
-<h2>Future Technology</h2>
-
-
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- <script src="script.js"></script> -->
-        <script>
-            // JS
-
-
-        </script>
-    </body>
+        <div class="section" id="future-technology">
+            <h2>Future Technology</h2>
+            <h3>Summary</h3>
+            <div class="subsection">
+                <div class="text">
+                    <ul>
+                        <li>Faster Space Traveling - Speeds that would reach the speed of light, maybe faster...</li>
+                        <li>Sustainable Colonies - Human colonies that would be able to survive in space.</li>
+                        <li>Space Terraforming Technology - Transforming planets to sustain human life.</li>
+                        <li>More Efficient Space Suits - Space suits that would be more comfortable and efficient to wear.</li>
+                        <li>Faster Information Travel - Speed-of-light-or-faster-than-speed-of-light space travel.</li>
+                        <li>AI Powered Technology - AI that would help us navigate through space.</li>
+                        <li>More Efficient Storage - To be able to carry more to space.</li>
+                        <li>More Commercially Available Space Travel - Space travel to become more publicly accessible.</li>
+                        <li>Further Exploration Technology - To be able to explore space outside of our solar system.</li>
+                        <li>Gravity Simulation - For the spaceship to mimic the gravity on Earth.</li>
+                        <li>More Efficient Energy Usage - Better and more reliable energy sources.</li>
+                        <li>Radiation Protection - Spaceships that would protect us from radiation.</li>
+                        <li>Space Robots - Robots that would complete long journeys for us.</li>
+                        <li>Lightweight Technology - Lighter spaceships and suits.</li>
+                        <li>Study Different Energy Sources - Discover more energy sources and study them.</li>
+                        <li>Better Landing Technology - Better landing technology for spaceships.</li>
+                    </ul>
+                </div>
+                <div class="image">
+                    <img src="future-spacecraft-will-feature-sleek-curves-streamlined-designs-minimize-air-resistance_662214-265198.avif" alt="Future Space Technology">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
